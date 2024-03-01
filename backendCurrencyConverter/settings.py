@@ -97,11 +97,11 @@ WSGI_APPLICATION = 'backendCurrencyConverter.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ['PG_DATABASE'],
-        'HOST': os.environ['PG_HOST'],
-        'PORT': os.environ['PG_PORT'],
-        'USER': os.environ['PG_USER'],
-        'PASSWORD': os.environ['PG_PASSWORD'],
+        'NAME': os.environ['PGDATABASE'],
+        'HOST': os.environ['PGHOST'],
+        'PORT': os.environ['PGPORT'],
+        'USER': os.environ['PGUSER'],
+        'PASSWORD': os.environ['PGPASSWORD'],
     }
 }
 
