@@ -70,7 +70,7 @@ ROOT_URLCONF = 'backendCurrencyConverter.urls'
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost/',
-    'https://project4-frontend-get-there-production.up.railway.app/'
+    'https://get-there.up.railway.app/'
 ]
 
 TEMPLATES = [
