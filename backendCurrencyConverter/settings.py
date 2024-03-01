@@ -69,7 +69,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'backendCurrencyConverter.urls'
 
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost/'
+    'http://localhost/',
+    'project4-frontend-get-there-production.up.railway.app'
 ]
 
 TEMPLATES = [
